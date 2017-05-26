@@ -5,8 +5,8 @@
 Network                                                  M. Thomson, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                     A. Atlas, Ed.
-Expires: September 30, 2017                             Juniper Networks
-                                                          March 29, 2017
+Expires: November 27, 2017                              Juniper Networks
+                                                            May 26, 2017
 
 
                         Using GitHub at the IETF
@@ -38,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on September 30, 2017.
+   This Internet-Draft will expire on November 27, 2017.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 1]
+Thomson & Atlas         Expires November 27, 2017               [Page 1]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    to this document.  Code Components extracted from this document must
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 2]
+Thomson & Atlas         Expires November 27, 2017               [Page 2]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 1.  Introduction
@@ -165,9 +165,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 3]
+Thomson & Atlas         Expires November 27, 2017               [Page 3]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 1.2.  GitHub: Community Outreach
@@ -221,9 +221,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 4]
+Thomson & Atlas         Expires November 27, 2017               [Page 4]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    not also include the ability to push to all repositories and
@@ -277,9 +277,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 5]
+Thomson & Atlas         Expires November 27, 2017               [Page 5]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    In addition to the above boilerplate text there is a benefit to
@@ -333,9 +333,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 6]
+Thomson & Atlas         Expires November 27, 2017               [Page 6]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 3.2.  Working Group Policies
@@ -389,9 +389,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 7]
+Thomson & Atlas         Expires November 27, 2017               [Page 7]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    allows editors to more easily manage changes and issues that affect
@@ -445,9 +445,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 8]
+Thomson & Atlas         Expires November 27, 2017               [Page 8]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 4.1.  Issues
@@ -501,9 +501,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017               [Page 9]
+Thomson & Atlas         Expires November 27, 2017               [Page 9]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    Editors SHOULD make pull requests for all substantial changes rather
@@ -557,9 +557,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 10]
+Thomson & Atlas         Expires November 27, 2017              [Page 10]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 4.3.  Monitoring Activity
@@ -613,9 +613,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 11]
+Thomson & Atlas         Expires November 27, 2017              [Page 11]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 6.  Internet-Drafts
@@ -669,9 +669,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 12]
+Thomson & Atlas         Expires November 27, 2017              [Page 12]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    published to GitHub Pages, which allows users to view a version of
@@ -725,9 +725,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 13]
+Thomson & Atlas         Expires November 27, 2017              [Page 13]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 11.  IANA Considerations
@@ -781,9 +781,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 14]
+Thomson & Atlas         Expires November 27, 2017              [Page 14]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 12.3.  URIs
@@ -837,9 +837,9 @@ A.1.  CORE
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 15]
+Thomson & Atlas         Expires November 27, 2017              [Page 15]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
       repository with fixes for an issue).  However, technical
@@ -893,9 +893,9 @@ A.2.  QUIC
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 16]
+Thomson & Atlas         Expires November 27, 2017              [Page 16]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
    potentially of broad "design" impact, or "editorial" in nature so
@@ -949,9 +949,9 @@ Internet-Draft              IETF GitHub Usage                 March 2017
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 17]
+Thomson & Atlas         Expires November 27, 2017              [Page 17]
 
-Internet-Draft              IETF GitHub Usage                 March 2017
+Internet-Draft              IETF GitHub Usage                   May 2017
 
 
 Appendix B.  Acknowledgments
@@ -1005,4 +1005,4 @@ Authors' Addresses
 
 
 
-Thomson & Atlas        Expires September 30, 2017              [Page 18]
+Thomson & Atlas         Expires November 27, 2017              [Page 18]
