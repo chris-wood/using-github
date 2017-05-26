@@ -860,6 +860,13 @@ A.1.  CORE
    where the build process (examples, grammars) is much more complicated
    than can easily be supported by this template.
 
+   For most repos, a CI (continuous integration) process is set up that
+   generates a readable editor's copy (in HTML form) as well as a diff
+   from the most recent submitted version (tools TXT diff), linked from
+   the README; both have turned out to be very valuable.
+   (Unfortunately, the travis-based CI process is somewhat brittle, so
+   there is an appreciable failure rate.)
+
    We try to keep discussion on the mailing list (as opposed to getting
    them entirely in the GitHub issues), but may not have been very
    successful in that; it definitely requires constant vigilance.
@@ -883,13 +890,6 @@ A.2.  QUIC
 
    We created a GitHub organization called "quicwg" [10], which the WG
    chairs administer.  Under than organization, we set up two teams, one
-   for WG document editors [11] and one for regular contributors [12].
-   Membership in the former team is contingent on being chosen as an
-   editor for a WG deliverable.  The latter team is more open, and
-   consists of people that the chairs and editors want to assign reviews
-   or issues to.  Obviously, anyone can raise issues, comment on them,
-   submit pull requests, etc.  The benefit of the "contributors" team
-
 
 
 
@@ -898,6 +898,12 @@ Thomson & Atlas         Expires November 27, 2017              [Page 16]
 Internet-Draft              IETF GitHub Usage                   May 2017
 
 
+   for WG document editors [11] and one for regular contributors [12].
+   Membership in the former team is contingent on being chosen as an
+   editor for a WG deliverable.  The latter team is more open, and
+   consists of people that the chairs and editors want to assign reviews
+   or issues to.  Obviously, anyone can raise issues, comment on them,
+   submit pull requests, etc.  The benefit of the "contributors" team
    really lies in allowing the assignment of tasks to individuals, which
    is otherwise not possible.
 
@@ -941,18 +947,18 @@ Internet-Draft              IETF GitHub Usage                   May 2017
    actually make all that much sense here.)  Once WG consensus has been
    established, an issue is labeled "editor-ready".
 
-   Although the QUIC WG has only been chartered for a few months, we
-   have already had ~250 issues raised, many of which have attracted
-   dozens of comments.  Good issue topics and actively searching for
-   prior issues before opening new ones is essential to manage the
-   workflow.
-
 
 
 Thomson & Atlas         Expires November 27, 2017              [Page 17]
 
 Internet-Draft              IETF GitHub Usage                   May 2017
 
+
+   Although the QUIC WG has only been chartered for a few months, we
+   have already had ~250 issues raised, many of which have attracted
+   dozens of comments.  Good issue topics and actively searching for
+   prior issues before opening new ones is essential to manage the
+   workflow.
 
    In order to allow WG participants to follow the activity on GitHub
    without needing to check the GitHub web site, we have set up a
@@ -998,6 +1004,12 @@ Authors' Addresses
    Email: martin.thomson@gmail.com
 
 
+
+Thomson & Atlas         Expires November 27, 2017              [Page 18]
+
+Internet-Draft              IETF GitHub Usage                   May 2017
+
+
    Alia Atlas (editor)
    Juniper Networks
 
@@ -1005,4 +1017,48 @@ Authors' Addresses
 
 
 
-Thomson & Atlas         Expires November 27, 2017              [Page 18]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thomson & Atlas         Expires November 27, 2017              [Page 19]

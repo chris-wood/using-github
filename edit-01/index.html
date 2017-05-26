@@ -622,14 +622,15 @@ address {
 <p id="rfc.section.A.1.p.1">The CoRE WG (Constrained RESTful Environments) has been actively using the Trac/SVN combination offered by the Tools Team for its older drafts.</p>
 <p id="rfc.section.A.1.p.2">Some newer drafts (including some drafts that are not yet WG drafts but could be considered candidates for that) are now being worked on in the <samp>core-wg</samp> GitHub organization.</p>
 <p id="rfc.section.A.1.p.3">These drafts generally use Martin Thomson&#8217;s <a href="https://github.com/martinthomson/i-d-template">template</a>, except where the build process (examples, grammars) is much more complicated than can easily be supported by this template.</p>
-<p id="rfc.section.A.1.p.4">We try to keep discussion on the mailing list (as opposed to getting them entirely in the GitHub issues), but may not have been very successful in that; it definitely requires constant vigilance.</p>
-<p id="rfc.section.A.1.p.5">The <a href="https://trac.ietf.org/trac/core/wiki">WG Wiki</a> says:</p>
+<p id="rfc.section.A.1.p.4">For most repos, a CI (continuous integration) process is set up that generates a readable editor&#8217;s copy (in HTML form) as well as a diff from the most recent submitted version (tools TXT diff), linked from the README; both have turned out to be very valuable.  (Unfortunately, the travis-based CI process is somewhat brittle, so there is an appreciable failure rate.)</p>
+<p id="rfc.section.A.1.p.5">We try to keep discussion on the mailing list (as opposed to getting them entirely in the GitHub issues), but may not have been very successful in that; it definitely requires constant vigilance.</p>
+<p id="rfc.section.A.1.p.6">The <a href="https://trac.ietf.org/trac/core/wiki">WG Wiki</a> says:</p>
 <p/>
 
 <ul class="empty">
   <li>With respect to the mode of operation of the repository, the CoRE WG follows the lead of the <a href="http://httpwg.org/">HTTPBIS WG</a>. Specifically that means that GitHub issues are welcome to record editorial issues as well as technical ones; as are &#8220;pull requests&#8221; (forks of the repository with fixes for an issue). However, technical discussion should not happen in the forums implicitly created by the issues, but on the WG mailing list.</li>
 </ul>
-<p id="rfc.section.A.1.p.7">We currently do not have an active backup regime.</p>
+<p id="rfc.section.A.1.p.8">We currently do not have an active backup regime.</p>
 <h2 id="rfc.appendix.A.2"><a href="#rfc.appendix.A.2">A.2.</a> <a href="#quic" id="quic">QUIC</a></h2>
 <p id="rfc.section.A.2.p.1">The <a href="https://datatracker.ietf.org/wg/quic/charter/">QUIC WG</a> was chartered in October 2016, and has been using GitHub very intensively.</p>
 <p id="rfc.section.A.2.p.2">We created a GitHub organization called <a href="https://github.com/quicwg">&#8220;quicwg&#8221;</a>, which the WG chairs administer. Under than organization, we set up two teams, one for <a href="https://github.com/orgs/quicwg/teams/editors">WG document editors</a> and one for <a href="https://github.com/orgs/quicwg/teams/contributors">regular contributors</a>. Membership in the former team is contingent on being chosen as an editor for a WG deliverable.  The latter team is more open, and consists of people that the chairs and editors want to assign reviews or issues to. Obviously, anyone can raise issues, comment on them, submit pull requests, etc. The benefit of the &#8220;contributors&#8221; team really lies in allowing the assignment of tasks to individuals, which is otherwise not possible.</p>
