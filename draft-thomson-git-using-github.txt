@@ -4,13 +4,12 @@
 
 Network                                                  M. Thomson, Ed.
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                     A. Atlas, Ed.
-Expires: January 7, 2019                                Juniper Networks
-                                                           July 06, 2018
+Intended status: Best Current Practice                 February 15, 2019
+Expires: August 19, 2019
 
 
                         Using GitHub at the IETF
-                    draft-thomson-github-bcp-latest
+                 draft-thomson-git-using-github-latest
 
 Abstract
 
@@ -39,26 +38,26 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on January 7, 2019.
+   This Internet-Draft will expire on August 19, 2019.
 
 Copyright Notice
 
-   Copyright (c) 2018 IETF Trust and the persons identified as the
+   Copyright (c) 2019 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
    Provisions Relating to IETF Documents
    (https://trustee.ietf.org/license-info) in effect on the date of
    publication of this document.  Please review these documents
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 1]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    carefully, as they describe your rights and restrictions with respect
+
+
+
+Thomson                  Expires August 19, 2019                [Page 1]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
    to this document.  Code Components extracted from this document must
    include Simplified BSD License text as described in Section 4.e of
    the Trust Legal Provisions and are provided without warranty as
@@ -68,65 +67,68 @@ Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
      1.1.  Distributed Version Control Systems . . . . . . . . . . .   3
-     1.2.  GitHub: Community Outreach  . . . . . . . . . . . . . . .   3
+     1.2.  GitHub  . . . . . . . . . . . . . . . . . . . . . . . . .   3
      1.3.  Other Services  . . . . . . . . . . . . . . . . . . . . .   4
      1.4.  Document Goals  . . . . . . . . . . . . . . . . . . . . .   4
-     1.5.  Notational Conventions  . . . . . . . . . . . . . . . . .   4
+     1.5.  Notational Conventions  . . . . . . . . . . . . . . . . .   5
    2.  Administrative Policies . . . . . . . . . . . . . . . . . . .   5
      2.1.  Organizations . . . . . . . . . . . . . . . . . . . . . .   5
-     2.2.  Backup and Archive Requirements . . . . . . . . . . . . .   5
+     2.2.  Backup and Archive Requirements . . . . . . . . . . . . .   6
      2.3.  Communicating Policies  . . . . . . . . . . . . . . . . .   6
        2.3.1.  Contribution Policies on Repositories . . . . . . . .   6
-   3.  Deciding to Use GitHub  . . . . . . . . . . . . . . . . . . .   6
+   3.  Deciding to Use GitHub  . . . . . . . . . . . . . . . . . . .   7
      3.1.  What to Use GitHub For  . . . . . . . . . . . . . . . . .   7
      3.2.  Working Group Policies  . . . . . . . . . . . . . . . . .   7
-     3.3.  Repositories  . . . . . . . . . . . . . . . . . . . . . .   7
+     3.3.  Repositories  . . . . . . . . . . . . . . . . . . . . . .   8
      3.4.  Editors and Contributors  . . . . . . . . . . . . . . . .   8
      3.5.  Document Formats  . . . . . . . . . . . . . . . . . . . .   9
    4.  Contribution Methods  . . . . . . . . . . . . . . . . . . . .   9
      4.1.  Issues  . . . . . . . . . . . . . . . . . . . . . . . . .   9
-       4.1.1.  Issue Labelling . . . . . . . . . . . . . . . . . . .   9
+       4.1.1.  Issue Labelling . . . . . . . . . . . . . . . . . . .  10
        4.1.2.  Closing Issues  . . . . . . . . . . . . . . . . . . .  10
      4.2.  Pull Requests . . . . . . . . . . . . . . . . . . . . . .  10
-       4.2.1.  Discussion on Pull Requests . . . . . . . . . . . . .  10
+       4.2.1.  Discussion on Pull Requests . . . . . . . . . . . . .  11
        4.2.2.  Merging Pull Requests . . . . . . . . . . . . . . . .  11
      4.3.  Monitoring Activity . . . . . . . . . . . . . . . . . . .  11
-   5.  Internet-Draft Publication  . . . . . . . . . . . . . . . . .  11
-   6.  Assessing Consensus . . . . . . . . . . . . . . . . . . . . .  11
-   7.  Continuous Integration  . . . . . . . . . . . . . . . . . . .  12
+   5.  Internet-Draft Publication  . . . . . . . . . . . . . . . . .  12
+   6.  Assessing Consensus . . . . . . . . . . . . . . . . . . . . .  12
+   7.  Continuous Integration  . . . . . . . . . . . . . . . . . . .  13
    8.  Advice to Editors . . . . . . . . . . . . . . . . . . . . . .  13
-   9.  GitHub Limitations  . . . . . . . . . . . . . . . . . . . . .  13
-   10. Security Considerations . . . . . . . . . . . . . . . . . . .  13
-   11. IANA Considerations . . . . . . . . . . . . . . . . . . . . .  14
-   12. References  . . . . . . . . . . . . . . . . . . . . . . . . .  14
-     12.1.  Normative References . . . . . . . . . . . . . . . . . .  14
+   9.  GitHub Limitations  . . . . . . . . . . . . . . . . . . . . .  14
+   10. Security Considerations . . . . . . . . . . . . . . . . . . .  14
+   11. IANA Considerations . . . . . . . . . . . . . . . . . . . . .  15
+   12. References  . . . . . . . . . . . . . . . . . . . . . . . . .  15
+     12.1.  Normative References . . . . . . . . . . . . . . . . . .  15
      12.2.  Informative References . . . . . . . . . . . . . . . . .  15
-     12.3.  URIs . . . . . . . . . . . . . . . . . . . . . . . . . .  15
+     12.3.  URIs . . . . . . . . . . . . . . . . . . . . . . . . . .  16
    Appendix A.  Experiences from Working Groups  . . . . . . . . . .  16
      A.1.  CORE  . . . . . . . . . . . . . . . . . . . . . . . . . .  16
      A.2.  QUIC  . . . . . . . . . . . . . . . . . . . . . . . . . .  17
-   Appendix B.  Acknowledgments  . . . . . . . . . . . . . . . . . .  18
+   Appendix B.  Acknowledgments  . . . . . . . . . . . . . . . . . .  19
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  19
 
 
 
-Thomson & Atlas          Expires January 7, 2019                [Page 2]
+Thomson                  Expires August 19, 2019                [Page 2]
 
-Internet-Draft              IETF GitHub Usage                  July 2018
+Internet-Draft              IETF GitHub Usage              February 2019
 
-
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  19
 
 1.  Introduction
 
    The IETF has an open and transparent process for developing
-   standards; the use of GitHub, when used as part of this process as
-   appropriate, can have several objectives.  For some technology areas,
-   it can broaden the community that is reviewing and improving the
-   specifications.  GitHub provides useful tools to speed up and manage
-   a rapid iteration process for managing changes and tracking issues.
-   Using tools that reduce the friction in rapidly improving documents
-   and getting more relevant reviews can help improve the speed at which
-   a Working Group completes its specifications.
+   standards.  The use of GitHub or similar tools, when used as part of
+   this process, can have several objectives.  GitHub provides tools
+   that can be helpful in editing documents.  Use of this service has
+   proven to reduce the time that working groups need to produce
+   documents and to improve the quality of the final result.
+
+   The use of source control improves traceability and visibility of
+   changes.  Issue tracking can be used to manage open issues and
+   provide a record of their resolution.  Pull requests allow for better
+   engagement on technical and edditorial changes, and encourage
+   contributions from a larger set of contributors.  Using GitHub can
+   also broaden the community of contributors for a specification.
 
    This document describes how the IETF uses GitHub through the
    development of Internet-Drafts.  This concentrates on the work that
@@ -134,11 +136,14 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    groups and their chairs are made for integrating these tools with
    their processes.
 
-   This document is meant as a companion to RFC 2418 [RFC2418].  It
+   This document is meant as an enhancement to RFC 2418 [RFC2418].  It
    provides guidance to working group chairs and participants on how
    they can best use GitHub.  The small number of rules in this document
    are there to ensure common usage patterns between working groups and
    to avoid issues that have been encountered in the past.
+
+   A companion document, [GH-CONFIG], describes administrative processes
+   that supports the practices described in this document.
 
 1.1.  Distributed Version Control Systems
 
@@ -151,30 +156,29 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    revisions in their copy of a repository and share revisions between
    copies of repositories.
 
-1.2.  GitHub: Community Outreach
+1.2.  GitHub
 
    GitHub is a service operated at https://github.com/ [2].  GitHub
    provides a centralized store for git repositories.  GitHub is freely
    accessible on the open Internet (see Section 9), albeit currently
    only via IPv4.
 
+
+
+Thomson                  Expires August 19, 2019                [Page 3]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
    GitHub provides a simplified and integrated interface to not only
    git, but also provides basic user management, an issue tracker,
    associated wiki, project hosting, and other features.
 
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 3]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
-   There are a large number of projects at GitHub and associated a very
-   large community of contributors.  One way in which some IETF Working
-   Groups have seen benefit is in the increased reviews and associated
-   issues and improvements that come from broader participation by
-   facilitating those in this community to participate.
+   There are a large number of projects at GitHub and a very large
+   community of contributors.  One way in which some IETF Working Groups
+   have seen benefit is in the increased reviews and associated issues
+   and improvements that come from broader participation by facilitating
+   those in this community to participate.
 
 1.3.  Other Services
 
@@ -185,10 +189,11 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    provide a similar feature set.  In additional to a hosted service,
    software for custom installations exists.
 
-   This document concentrates primarily on GitHub.  As a result, some
-   content might not be applicable to other similar services.  A working
-   group that decides to adopt an alternative tool or service can still
-   benefit from the general guidance in this document.
+   This document concentrates primarily on GitHub as it has a large and
+   active community of contributors.  As a result, some content might
+   not be applicable to other similar services.  A working group that
+   decides to adopt an alternative tool or service can still benefit
+   from the general guidance in this document.
 
 1.4.  Document Goals
 
@@ -210,21 +215,22 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    For both sets of users, this document aims to provide some amount of
    advice on practices that have proven to be effective.
 
+
+
+
+
+
+
+Thomson                  Expires August 19, 2019                [Page 4]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
 1.5.  Notational Conventions
 
    The words "MUST", "MUST NOT", "SHOULD", and "MAY" are used in this
    document.  It's not shouting; when they are capitalized, they have
    the special meaning defined in [RFC2119].
-
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 4]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
 
 2.  Administrative Policies
 
@@ -247,9 +253,9 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    need to maintain membership.
 
    Each organization requires owners.  The owner team for a working
-   group repository MUST include the Area Directors.  Area Directors MAY
-   also designate a delegate that becomes an owner and working group
-   chairs MAY also be owners.
+   group repository MUST include responsible Area Directors.  Area
+   Directors MAY also designate a delegate that becomes an owner and
+   working group chairs MAY also be owners.
 
    A team with administrator access SHOULD be created for the Working
    Group Chairs and any Working Group Secretary.  Administrator access
@@ -265,6 +271,17 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    organization.  Repositories MUST be updated along to indicate that
    they are no longer under development.
 
+
+
+
+
+
+
+Thomson                  Expires August 19, 2019                [Page 5]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
 2.2.  Backup and Archive Requirements
 
    When an IETF Working Group is closed or when associated mailing lists
@@ -274,14 +291,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
 
    Any repositories including issues and discussion SHOULD be backed up
    on IETF resources.  It is desirable for those to be accessible via
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 5]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    the Working Group's datatracker page.  For example, this might be via
    URLs listed in the More Info section on the Working Group Charter
    page.
@@ -320,6 +329,15 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    datatracker, specific drafts, or websites.  Adding such text is at
    the discretion of the Working Group Chairs.
 
+
+
+
+
+Thomson                  Expires August 19, 2019                [Page 6]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
 3.  Deciding to Use GitHub
 
    A Working Group Chairs are responsible for determining how to best
@@ -330,13 +348,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
 
    Chairs SHOULD involve Area Directors in this decision if they intend
    to use GitHub for anything more than managing of drafts.
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 6]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
 
    While a document editor can still use GitHub independently for
    documents that they edit, even if the working group does not
@@ -375,6 +386,14 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    any working group policies available to casual contributors who might
    only interact with the GitHub repository.
 
+
+
+
+Thomson                  Expires August 19, 2019                [Page 7]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
    GitHub prominently links to the CONTRIBUTING on certain pages.  This
    file SHOULD be used in preference to the README for information that
    new contributors need.  A link to the CONTRIBUTING file from the
@@ -386,13 +405,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    at the discretion of the chairs.  Chairs could decide to only create
    new repositories for adopted working group items, or they might
    create repositories for individual documents on request.
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 7]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
 
    All repositories for working group documents MUST be public.
    Repositories for private documents MAY be kept private, but only
@@ -430,6 +442,14 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    access and allocating editors to those teams, or by making editors
    collaborators on the repository.
 
+
+
+
+Thomson                  Expires August 19, 2019                [Page 8]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
    Working group chairs MAY also grant other individuals write access
    for other reasons, such as maintaining supporting code or build
    configurations.  Working group chairs, as administrators or owners of
@@ -442,14 +462,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    only given read access to a repository.  This does not confer
    additional privileges on these contributors, it instead allows for
    issues and pull requests to be assigned to those people.  This can be
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 8]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    used to manage the assignment of editorial or review tasks to
    individuals outside of the editor team.
 
@@ -484,6 +496,16 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    limited to recording the existence of issues, or it might be used as
    the venue for substantial technical discussion between contributors.
 
+
+
+
+
+
+Thomson                  Expires August 19, 2019                [Page 9]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
 4.1.1.  Issue Labelling
 
    A system of labeling issues can be effective in managing issues.  For
@@ -498,13 +520,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    If labels are a core part of working group process, chairs MUST
    communicate any process to the working group.  This includes the
    semantics of labels, and who can apply and remove these labels.
-
-
-
-Thomson & Atlas          Expires January 7, 2019                [Page 9]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
 
 4.1.2.  Closing Issues
 
@@ -540,6 +555,13 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    reviewed by editors.  Editors are given discretion in how they manage
    changes.
 
+
+
+Thomson                  Expires August 19, 2019               [Page 10]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
 4.2.1.  Discussion on Pull Requests
 
    In addition to the features that pull requests share with issues,
@@ -554,13 +576,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
 
    For this reason, working group chairs SHOULD discourage the use of
    inline comments for substantial technical discussion of issues.
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 10]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
 
 4.2.2.  Merging Pull Requests
 
@@ -583,9 +598,25 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    information on these lists can be too high to monitor actively, but
    access to an archive of actions can be useful.
 
-   A working group that uses GitHub SHOULD provide this facility.
-   However, setting up this mailing list can be onerous and better
-   solutions are still being sought.
+   An alternative is to rely on periodic email summaries of activity,
+   such as those produced by a notification tool like github-notify-ml
+   [6].  This tool has been used effectively in several working groups,
+   though it requires server infrastructure.
+
+   A working group that uses GitHub MAY provide either facility at the
+   request of the chairs.
+
+
+
+
+
+
+
+
+Thomson                  Expires August 19, 2019               [Page 11]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
 
 5.  Internet-Draft Publication
 
@@ -594,11 +625,11 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    This creates a stable snapshot and makes the content of the in-
    progress document available to a wider audience.
 
-   Editors SHOULD endeavor to create a new Internet-Draft submission two
-   weeks prior to every session (see Section 7.1 of [RFC2418]).
-   Participants in a session can't be expected to monitor changes to
-   documents in real-time; an Internet-Draft ensures that there is a
-   common, stable state that is known to all participants.
+   Editors SHOULD create a new Internet-Draft submission two weeks prior
+   to every session (see Section 7.1 of [RFC2418]).  Participants in a
+   session can't be expected to monitor changes to documents in real-
+   time; an Internet-Draft ensures that there is a common, stable state
+   that is known to all participants.
 
    Working group chairs MAY request the creation of an Internet-Draft at
    any time, in consultation with document editors.
@@ -608,15 +639,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    The work that occurs on GitHub could be part of the consensus
    process, but the ultimate decision on consensus regarding a document
    is made by the chairs [RFC2026].
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 11]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
 
    Monitoring activity on GitHub can require a greater time commitment
    than following a mailing list.  This is because there is an increased
@@ -636,6 +658,21 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    multiple sources in assessing consensus is similar to what is needed
    when balancing mailing list discussion versus in-person meeting
    discussion.
+
+   The use of issues and labels has proven to be effective in managing
+   contentious issues.  Explicitly labeling closed issues so that those
+   with formal consensus means that there is no confusion about the
+   status of issues.
+
+
+
+
+
+
+Thomson                  Expires August 19, 2019               [Page 12]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
 
 7.  Continuous Integration
 
@@ -662,18 +699,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    contains.  Tests for any source code that the document contains might
    be run, or examples might be checked for correctness.
 
-
-
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 12]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
 8.  Advice to Editors
 
    Document editors are primarily responsible for maintaining documents.
@@ -695,6 +720,15 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    Never close a pull request or issue without first understanding why
    it was made and then explaining why you aren't accepting it.  If you
    are uncertain, ask a chair for guidance.
+
+
+
+
+
+Thomson                  Expires August 19, 2019               [Page 13]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
 
    If a contributor makes a comment that raises what you believe to be a
    new issue, create an issue for them.  If the issue has an obvious
@@ -722,14 +756,6 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    dependency on an external service.  If GitHub were to fail in some
    way, anyone relying upon its services would be seriously affected.
 
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 13]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    Widespread use of git reduces the exposure to a system failure
    because the primary repository is replicated in multiple locations.
    This includes hosted web pages; the content of web pages is
@@ -749,6 +775,16 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    integrity of the content that GitHub hosts.  Backups allow for
    recovery of content, and regular submissions as Internet-Drafts
    ensure that work is not lost completely.
+
+
+
+
+
+
+Thomson                  Expires August 19, 2019               [Page 14]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
 
 11.  IANA Considerations
 
@@ -775,23 +811,17 @@ Internet-Draft              IETF GitHub Usage                  July 2018
               Procedure in RFC 3979", RFC 4879, DOI 10.17487/RFC4879,
               April 2007, <https://www.rfc-editor.org/info/rfc4879>.
 
-
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 14]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    [RFC5378]  Bradner, S., Ed. and J. Contreras, Ed., "Rights
               Contributors Provide to the IETF Trust", BCP 78, RFC 5378,
               DOI 10.17487/RFC5378, November 2008,
               <https://www.rfc-editor.org/info/rfc5378>.
 
 12.2.  Informative References
+
+   [GH-CONFIG]
+              Cooper, A. and P. Hoffman, "GitHub Configuration for IETF
+              Working Groups", draft-ietf-git-github-wg-configuration-00
+              (work in progress), February 2019.
 
    [ID-TEMPLATE]
               Thomson, M., "martinthomson/i-d-template", n.d.,
@@ -804,6 +834,13 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    [RFC7991]  Hoffman, P., "The "xml2rfc" Version 3 Vocabulary",
               RFC 7991, DOI 10.17487/RFC7991, December 2016,
               <https://www.rfc-editor.org/info/rfc7991>.
+
+
+
+Thomson                  Expires August 19, 2019               [Page 15]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
 
 12.3.  URIs
 
@@ -819,34 +856,29 @@ Internet-Draft              IETF GitHub Usage                  July 2018
    [5] https://trustee.ietf.org/license-for-open-source-
        repositories.html
 
-   [6] https://github.com/martinthomson/i-d-template
+   [6] https://github.com/dontcallmedom/github-notify-ml
 
-   [7] https://trac.ietf.org/trac/core/wiki
+   [7] https://github.com/martinthomson/i-d-template
 
-   [8] http://httpwg.org/
+   [8] https://trac.ietf.org/trac/core/wiki
 
-   [9] https://datatracker.ietf.org/wg/quic/charter/
+   [9] http://httpwg.org/
 
-   [10] https://github.com/quicwg
+   [10] https://datatracker.ietf.org/wg/quic/charter/
 
-   [11] https://github.com/orgs/quicwg/teams/editors
+   [11] https://github.com/quicwg
 
-   [12] https://github.com/orgs/quicwg/teams/contributors
+   [12] https://github.com/orgs/quicwg/teams/editors
 
-   [13] https://github.com/quicwg/wg-materials
+   [13] https://github.com/orgs/quicwg/teams/contributors
 
+   [14] https://github.com/quicwg/wg-materials
 
+   [15] https://github.com/quicwg/base-drafts
 
-Thomson & Atlas          Expires January 7, 2019               [Page 15]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
+   [16] https://www.ietf.org/mailman/listinfo/quic-issues
 
-
-   [14] https://github.com/quicwg/base-drafts
-
-   [15] https://www.ietf.org/mailman/listinfo/quic-issues
-
-   [16] https://github.com/orgs/quicwg/people/quic-issues
+   [17] https://github.com/orgs/quicwg/people/quic-issues
 
 Appendix A.  Experiences from Working Groups
 
@@ -856,11 +888,21 @@ A.1.  CORE
    using the Trac/SVN combination offered by the Tools Team for its
    older drafts.
 
+
+
+
+
+
+Thomson                  Expires August 19, 2019               [Page 16]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
    Some newer drafts (including some drafts that are not yet WG drafts
    but could be considered candidates for that) are now being worked on
    in the "core-wg" GitHub organization.
 
-   These drafts generally use Martin Thomson's template [6], except
+   These drafts generally use Martin Thomson's template [7], except
    where the build process (examples, grammars) is much more complicated
    than can easily be supported by this template.
 
@@ -875,10 +917,10 @@ A.1.  CORE
    them entirely in the GitHub issues), but may not have been very
    successful in that; it definitely requires constant vigilance.
 
-   The WG Wiki [7] says:
+   The WG Wiki [8] says:
 
       With respect to the mode of operation of the repository, the CoRE
-      WG follows the lead of the HTTPBIS WG [8].  Specifically that
+      WG follows the lead of the HTTPBIS WG [9].  Specifically that
       means that GitHub issues are welcome to record editorial issues as
       well as technical ones; as are "pull requests" (forks of the
       repository with fixes for an issue).  However, technical
@@ -887,25 +929,14 @@ A.1.  CORE
 
    We currently do not have an active backup regime.
 
-
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 16]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
 A.2.  QUIC
 
-   The QUIC WG [9] was chartered in October 2016, and has been using
+   The QUIC WG [10] was chartered in October 2016, and has been using
    GitHub very intensively.
 
-   We created a GitHub organization called "quicwg" [10], which the WG
+   We created a GitHub organization called "quicwg" [11], which the WG
    chairs administer.  Under than organization, we set up two teams, one
-   for WG document editors [11] and one for regular contributors [12].
+   for WG document editors [12] and one for regular contributors [13].
    Membership in the former team is contingent on being chosen as an
    editor for a WG deliverable.  The latter team is more open, and
    consists of people that the chairs and editors want to assign reviews
@@ -914,8 +945,17 @@ A.2.  QUIC
    really lies in allowing the assignment of tasks to individuals, which
    is otherwise not possible.
 
+
+
+
+
+Thomson                  Expires August 19, 2019               [Page 17]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
    Underneath the "quicwg" organization, we created two repositories,
-   one for WG materials [13] and one for our base WG drafts [14].  Only
+   one for WG materials [14] and one for our base WG drafts [15].  Only
    the chairs have commit permissions to the WG materials repo, which is
    mostly used to hold presentations and other materials from our
    various meetings.  This repo is configured to not allow issues to be
@@ -946,14 +986,6 @@ A.2.  QUIC
    on each issue (with states that currently include "needs-discussion",
    "confirm-consensus", "notify-consensus" and "editor-ready").  Issues
    progress from "needs-discussion" to either "confirm-consensus" or
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 17]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    "notify-consensus".  The former is entered when consensus amongst the
    participants in the discussion has emerged, and the WG needs to
    confirm this consensus on the list.  The latter is entered when a
@@ -970,7 +1002,15 @@ Internet-Draft              IETF GitHub Usage                  July 2018
 
    In order to allow WG participants to follow the activity on GitHub
    without needing to check the GitHub web site, we have set up a
-   separate "quic-issues" [15] mailing list at the IETF.  It was a
+
+
+
+Thomson                  Expires August 19, 2019               [Page 18]
+
+Internet-Draft              IETF GitHub Usage              February 2019
+
+
+   separate "quic-issues" [16] mailing list at the IETF.  It was a
    deliberate decision to use a list other than the regular WG mailing
    list.  First, because we are intensively using GitHub, a lot of
    notifications get generated (dozens per day), which would drown out
@@ -983,7 +1023,7 @@ Internet-Draft              IETF GitHub Usage                  July 2018
 
    Getting GitHub notifications to go to this list was mildly painful,
    and involved creating a dummy "IETF QUIC WG" GitHub user account
-   [16], whose subscription email address is the quic-issues list
+   [17], whose subscription email address is the quic-issues list
    address.  The dummy user was made a member of the QUIC GitHub
    organization, and will therefore by default "track" all repo
    activity.  This will cause GitHub to create the desired stream of
@@ -1000,21 +1040,11 @@ Appendix B.  Acknowledgments
    This work wouldn't have been possible without the hard work of those
    people who have trialled use of GitHub at the IETF.
 
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 18]
-
-Internet-Draft              IETF GitHub Usage                  July 2018
-
-
    The experiences of the CORE WG in Appendix A.1 were contributed by
    Carsten Bormann.  The experiences of the QUIC WG in Appendix A.2 were
    contributed by Lars Eggert.
 
-Authors' Addresses
+Author's Address
 
    Martin Thomson (editor)
    Mozilla
@@ -1022,10 +1052,6 @@ Authors' Addresses
    Email: martin.thomson@gmail.com
 
 
-   Alia Atlas (editor)
-   Juniper Networks
-
-   Email: akatlas@gmail.com
 
 
 
@@ -1035,30 +1061,4 @@ Authors' Addresses
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Thomson & Atlas          Expires January 7, 2019               [Page 19]
+Thomson                  Expires August 19, 2019               [Page 19]
