@@ -2,10 +2,10 @@
 
 
 
-Network                                                  M. Thomson, Ed.
+Network                                                       M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                 February 15, 2019
-Expires: August 19, 2019
+Intended status: Best Current Practice                    March 24, 2019
+Expires: September 25, 2019
 
 
                         Using GitHub at the IETF
@@ -38,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on August 19, 2019.
+   This Internet-Draft will expire on September 25, 2019.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Thomson                  Expires August 19, 2019                [Page 1]
+Thomson                Expires September 25, 2019               [Page 1]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    to this document.  Code Components extracted from this document must
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Thomson                  Expires August 19, 2019                [Page 2]
+Thomson                Expires September 25, 2019               [Page 2]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 1.  Introduction
@@ -165,9 +165,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 3]
+Thomson                Expires September 25, 2019               [Page 3]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    GitHub provides a simplified and integrated interface to not only
@@ -221,9 +221,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 4]
+Thomson                Expires September 25, 2019               [Page 4]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 1.5.  Notational Conventions
@@ -277,9 +277,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 5]
+Thomson                Expires September 25, 2019               [Page 5]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 2.2.  Backup and Archive Requirements
@@ -303,9 +303,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 2.3.  Communicating Policies
 
    Each Working Group MAY set its own policy as to whether and how it
-   uses GitHub or GitLab.  It is important that occasional participants
-   in the WG and others accustomed to IETF tools be able to determine
-   this and easily find the policy and GitHub or GitLab organization.
+   uses GitHub.  It is important that occasional participants in the WG
+   and others accustomed to IETF tools be able to determine this and
+   easily find the policy and GitHub organization.
 
    A simple example of how to do this is to include a link to the GitHub
    organization on the WG Charter page in the datatracker under More
@@ -333,9 +333,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 6]
+Thomson                Expires September 25, 2019               [Page 6]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 3.  Deciding to Use GitHub
@@ -346,8 +346,8 @@ Internet-Draft              IETF GitHub Usage              February 2019
    interest in using GitHub and making a consensus call to determine if
    a the proposed policy and use is acceptable.
 
-   Chairs SHOULD involve Area Directors in this decision if they intend
-   to use GitHub for anything more than managing of drafts.
+   Chairs SHOULD involve Area Directors any decision to use GitHub for
+   anything more than managing of drafts.
 
    While a document editor can still use GitHub independently for
    documents that they edit, even if the working group does not
@@ -389,9 +389,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 7]
+Thomson                Expires September 25, 2019               [Page 7]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    GitHub prominently links to the CONTRIBUTING on certain pages.  This
@@ -445,9 +445,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 8]
+Thomson                Expires September 25, 2019               [Page 8]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    Working group chairs MAY also grant other individuals write access
@@ -501,9 +501,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019                [Page 9]
+Thomson                Expires September 25, 2019               [Page 9]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 4.1.1.  Issue Labelling
@@ -557,9 +557,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 10]
+Thomson                Expires September 25, 2019              [Page 10]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 4.2.1.  Discussion on Pull Requests
@@ -613,9 +613,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 11]
+Thomson                Expires September 25, 2019              [Page 11]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 5.  Internet-Draft Publication
@@ -649,14 +649,14 @@ Internet-Draft              IETF GitHub Usage              February 2019
    on GitHub content alone cannot be assumed to reach all interested
    participants.
 
-   A working group chair SHOULD consult the working group mailing list
-   for any issue that is potentially contentious.  Relying on input
-   provided through GitHub alone might result in gaining input from a
-   narrower set of participants.  This includes important milestones
-   like Working Group Last-Call, where review from the widest possible
-   audience ensures a higher quality document.  Managing input from
-   multiple sources in assessing consensus is similar to what is needed
-   when balancing mailing list discussion versus in-person meeting
+   A working group chair MUST consult the working group mailing list for
+   any issue that is potentially contentious.  Relying on input provided
+   through GitHub alone might result in gaining input from a narrower
+   set of participants.  This includes important milestones like Working
+   Group Last-Call, where review from the widest possible audience
+   ensures a higher quality document.  Managing input from multiple
+   sources in assessing consensus is similar to what is needed when
+   balancing mailing list discussion versus in-person meeting
    discussion.
 
    The use of issues and labels has proven to be effective in managing
@@ -669,9 +669,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 12]
+Thomson                Expires September 25, 2019              [Page 12]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 7.  Continuous Integration
@@ -725,9 +725,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 13]
+Thomson                Expires September 25, 2019              [Page 13]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    If a contributor makes a comment that raises what you believe to be a
@@ -781,9 +781,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 14]
+Thomson                Expires September 25, 2019              [Page 14]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 11.  IANA Considerations
@@ -820,8 +820,8 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
    [GH-CONFIG]
               Cooper, A. and P. Hoffman, "GitHub Configuration for IETF
-              Working Groups", draft-ietf-git-github-wg-configuration-00
-              (work in progress), February 2019.
+              Working Groups", draft-ietf-git-github-wg-configuration-01
+              (work in progress), March 2019.
 
    [ID-TEMPLATE]
               Thomson, M., "martinthomson/i-d-template", n.d.,
@@ -837,9 +837,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 15]
+Thomson                Expires September 25, 2019              [Page 15]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 12.3.  URIs
@@ -893,9 +893,9 @@ A.1.  CORE
 
 
 
-Thomson                  Expires August 19, 2019               [Page 16]
+Thomson                Expires September 25, 2019              [Page 16]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    Some newer drafts (including some drafts that are not yet WG drafts
@@ -949,9 +949,9 @@ A.2.  QUIC
 
 
 
-Thomson                  Expires August 19, 2019               [Page 17]
+Thomson                Expires September 25, 2019              [Page 17]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    Underneath the "quicwg" organization, we created two repositories,
@@ -1005,9 +1005,9 @@ Internet-Draft              IETF GitHub Usage              February 2019
 
 
 
-Thomson                  Expires August 19, 2019               [Page 18]
+Thomson                Expires September 25, 2019              [Page 18]
 
-Internet-Draft              IETF GitHub Usage              February 2019
+Internet-Draft              IETF GitHub Usage                 March 2019
 
 
    separate "quic-issues" [16] mailing list at the IETF.  It was a
@@ -1038,7 +1038,8 @@ Internet-Draft              IETF GitHub Usage              February 2019
 Appendix B.  Acknowledgments
 
    This work wouldn't have been possible without the hard work of those
-   people who have trialled use of GitHub at the IETF.
+   people who have trialled use of GitHub at the IETF.  Alia Atlas
+   contributed significant text to an earlier version of this document.
 
    The experiences of the CORE WG in Appendix A.1 were contributed by
    Carsten Bormann.  The experiences of the QUIC WG in Appendix A.2 were
@@ -1046,10 +1047,10 @@ Appendix B.  Acknowledgments
 
 Author's Address
 
-   Martin Thomson (editor)
+   Martin Thomson
    Mozilla
 
-   Email: martin.thomson@gmail.com
+   Email: mt@lowentropy.net
 
 
 
@@ -1060,5 +1061,4 @@ Author's Address
 
 
 
-
-Thomson                  Expires August 19, 2019               [Page 19]
+Thomson                Expires September 25, 2019              [Page 19]
