@@ -4,12 +4,12 @@
 
 Network                                                       M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                    March 24, 2019
-Expires: September 25, 2019
+Intended status: Best Current Practice                    March 30, 2019
+Expires: October 1, 2019
 
 
                         Using GitHub at the IETF
-                 draft-thomson-git-using-github-latest
+                   draft-ietf-git-using-github-latest
 
 Abstract
 
@@ -38,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on September 25, 2019.
+   This Internet-Draft will expire on October 1, 2019.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Thomson                Expires September 25, 2019               [Page 1]
+Thomson                  Expires October 1, 2019                [Page 1]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Thomson                Expires September 25, 2019               [Page 2]
+Thomson                  Expires October 1, 2019                [Page 2]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -165,7 +165,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 3]
+Thomson                  Expires October 1, 2019                [Page 3]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -221,7 +221,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 4]
+Thomson                  Expires October 1, 2019                [Page 4]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -277,7 +277,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 5]
+Thomson                  Expires October 1, 2019                [Page 5]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -333,7 +333,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 6]
+Thomson                  Expires October 1, 2019                [Page 6]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -389,7 +389,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 7]
+Thomson                  Expires October 1, 2019                [Page 7]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -445,7 +445,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 8]
+Thomson                  Expires October 1, 2019                [Page 8]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -501,7 +501,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019               [Page 9]
+Thomson                  Expires October 1, 2019                [Page 9]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -557,7 +557,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 10]
+Thomson                  Expires October 1, 2019               [Page 10]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -613,7 +613,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 11]
+Thomson                  Expires October 1, 2019               [Page 11]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -669,7 +669,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 12]
+Thomson                  Expires October 1, 2019               [Page 12]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -725,7 +725,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 13]
+Thomson                  Expires October 1, 2019               [Page 13]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -781,7 +781,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 14]
+Thomson                  Expires October 1, 2019               [Page 14]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -837,7 +837,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 15]
+Thomson                  Expires October 1, 2019               [Page 15]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -893,7 +893,7 @@ A.1.  CORE
 
 
 
-Thomson                Expires September 25, 2019              [Page 16]
+Thomson                  Expires October 1, 2019               [Page 16]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -949,7 +949,7 @@ A.2.  QUIC
 
 
 
-Thomson                Expires September 25, 2019              [Page 17]
+Thomson                  Expires October 1, 2019               [Page 17]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -1005,7 +1005,7 @@ Internet-Draft              IETF GitHub Usage                 March 2019
 
 
 
-Thomson                Expires September 25, 2019              [Page 18]
+Thomson                  Expires October 1, 2019               [Page 18]
 
 Internet-Draft              IETF GitHub Usage                 March 2019
 
@@ -1061,4 +1061,4 @@ Author's Address
 
 
 
-Thomson                Expires September 25, 2019              [Page 19]
+Thomson                  Expires October 1, 2019               [Page 19]
